@@ -1,0 +1,45 @@
+### Unreal Engine ###
+
+# Служебные каталоги, генерируемые при каждом запуске движка
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Config/
+DerivedDataCacheBoot.ddc
+DerivedDataCache/
+
+# Пользовательские настройки редактора (каждый компьютер — свои)
+.vs/
+.vscode/
+*.VSBackup
+
+# Сборка и временные файлы
+Build/Android/
+Build/IOS/
+Build/Win64/
+Build/Linux/
+Build/Mac/
+
+# IDE / Visual Studio
+*.sln
+*.opensdf
+*.opendb
+*.sdf
+*.log
+*.tlog
+*.pdb
+*.db
+*.suo
+*.tmp
+*.cache
+*.vcxproj*
+*.user
+*.err
+# Кэш ассетов и редактора
+*.uasset.autosave
+*.umap.autosave
+
+# OS
+Thumbs.db
+.DS_Store
